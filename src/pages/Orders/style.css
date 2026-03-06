@@ -1,0 +1,27 @@
+.orders-page .form-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.orders-page .input, .orders-page .select {
+  padding: 6px 8px;
+  font-size: 14px;
+  flex: 1 1 150px;
+}
+.orders-page .btn {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.orders-page .btn.danger {
+  background: #ff4d4f;
+  color: white;
+}
+.orders-page table.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.orders-page table.table th, .orders-page table.table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}

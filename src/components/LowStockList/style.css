@@ -1,0 +1,5 @@
+.section-title { font-weight:700; margin-bottom:10px; }
+.lowstock { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; }
+.lowstock .dot { width:8px; height:8px; border-radius:999px; background: var(--danger); display:inline-block; margin-right:8px; }
+.lowstock li { display:flex; align-items:center; gap:6px; }
+.muted { color: var(--muted); }

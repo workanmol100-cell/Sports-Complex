@@ -1,0 +1,5 @@
+
+.statcard .stat-title { color: var(--muted); font-size: 13px; }
+.statcard .stat-body { display:flex; align-items:center; gap:10px; margin-top:4px; }
+.statcard .stat-value { font-size: 22px; font-weight: 700; }
+.icon { font-size: 20px; }

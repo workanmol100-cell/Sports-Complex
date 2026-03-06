@@ -1,0 +1,6 @@
+.prod-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:12px; }
+.prod { background:#fff; border:1px solid #e5e7eb; border-radius:8px; padding:10px; text-align:left; cursor:pointer; }
+.prod:hover { border-color:#94a3b8; }
+.name { font-weight:600; }
+.price { font-weight:700; }
+@media (max-width: 1024px) { .prod-grid { grid-template-columns: 1fr; } }
